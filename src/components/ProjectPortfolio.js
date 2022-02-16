@@ -19,25 +19,56 @@ function ProjectPortfolio() {
 	  		<Grid container style={{marginTop: '1rem', marginLeft: '1rem'}}>
 	           	<Grid>
 	               	<Typography variant="h2" align="center" color="green" gutterButton>
-	                   	About Me
+	                   	My sample work
 	               	</Typography> 
 	           	</Grid>
 	        </Grid>
 	        <Divider />
 	    	<Box sx={{ flexGrow: 1 }} mt={3}>
-		      	<Grid container spacing={2}>
-		        	<Grid item md={6} lg={4}>
-		          		<Item>
-		          			<img className="myPhoto" src={myImage} alt="My Image" />
-		          		</Item>
-		        	</Grid>
-		        	<Grid item md={6} lg={4}>
-		          		<Item>
-		          			Hello! I am Shimul Debnath. I was born in Bagerhat, raised in Khulna, and am currently living in Dhaka. I am working as an Assistant Director(Programming) in Bangladesh Bank(Yes The Central Bank of Bangladesh). I am a full stack web developer, specializing in PHP and React js. I have four years of professional experience in PHP. I will create React application for you
-		          		</Item>
-		        	</Grid>
-		      	</Grid>
-	    	</Box>
+		        <Grid container spacing={2} justifyContent="center">
+			        <Grid item sm={6} md={4} lg={3}>
+				        <Item>
+				        	ABC.com
+				        </Item>
+				    </Grid>
+				    <Grid item sm={6} md={4} lg={3}>
+				        <Item>
+				        	XYZ.com
+				        </Item>
+				    </Grid>
+				    <Grid item sm={6} md={4} lg={3}>
+				        <Item>
+				        	EFG.com
+				        </Item>
+				    </Grid>
+				    <Grid item sm={6} md={4} lg={3}>
+				        <Item>
+				        	IJK.com
+				        </Item>
+				    </Grid>
+
+				    <Grid item sm={6} md={4} lg={3}>
+				        <Item>
+				        	startup.com
+				        </Item>
+				    </Grid>
+				    <Grid item sm={6} md={4} lg={3}>
+				        <Item>
+				        	new.com
+				        </Item>
+				    </Grid>
+				    <Grid item sm={6} md={4} lg={3}>
+				        <Item>
+				        	success.com
+				        </Item>
+				    </Grid>
+				    <Grid item sm={6} md={4} lg={3}>
+				        <Item>
+				        	failure.com
+				        </Item>
+				    </Grid>
+			    </Grid>
+	        </Box>
 	    </>
   	);
 }

@@ -9,6 +9,7 @@ function Body() {
 		<>  
             <AboutMe />
             <KeySkills />
+            <ProjectPortfolio />
             <Experience />
         </>
 	);
