@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 
-import '/home/shimul/Documents/Projects/test/src/App.css';
+import '/home/shimul/Documents/Projects/portfolio/src/App.css';
 import myImage from './Shimul.jpg';
 
 const Item = styled(Paper)(({ theme }) => ({
