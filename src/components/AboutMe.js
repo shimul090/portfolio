@@ -10,6 +10,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 import '/home/shimul/Documents/Projects/portfolio/src/App.css';
 import myImage from './Shimul.jpg';
+import myPhoto from './image.jpg';
 
 const Item = styled(Paper)(({ theme }) => ({
 	backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff', ...theme.typography.body2, padding: theme.spacing(1), textAlign: 'center', color: theme.palette.text.secondary,
@@ -27,10 +28,10 @@ function AboutMe() {
 	        </Grid>
 	        <Divider />
 	    	<Box sx={{ flexGrow: 1 }} mt={3}>
-		      	<Grid container spacing={2}>
+		      	<Grid container spacing={2} justifyContent="center">
 		        	<Grid item md={6} lg={4}>
 		          		<Item>
-		          			<img className="myPhoto" src={myImage} alt="My Image" />
+		          			<img className="myPhoto" src={myPhoto} alt="My Image" />
 		          		</Item>
 		        	</Grid>
 		        	<Grid item md={6} lg={4}>
